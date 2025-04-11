@@ -6,6 +6,12 @@ router.get('/getAll', get);
 router.get('/getAllUsers', getUser);
 router.post('/addmoney/:id', addMoney);
 
+{
+    "userId": 1,
+    "amount": 100,
+    "action": //тут только 'deposit', 'withdraw', 'purchase'
+
+}
 
 для начало установите все packege.json : (
    "cors": "^2.8.5",
